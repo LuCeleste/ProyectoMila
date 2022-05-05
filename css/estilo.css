@@ -111,9 +111,9 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
   width: 400px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .servicio h3 {
@@ -129,6 +129,9 @@ h2 {
 
 .servicio img {
   width: 200px;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .todoservicios {
