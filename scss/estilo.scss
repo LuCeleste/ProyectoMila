@@ -1,0 +1,213 @@
+        
+$font:'Poppins', sans-serif;
+$fonttitulos:'Butler', sans-serif;
+$naranja:  #ff7f30;
+$negro: #000000;
+$blanco: #ffffff;
+$gris: #706E6F;
+$celeste: #1b8098;
+$azul:#11438de5;
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: $font;
+    color: $gris;
+    line-height: 1.6;
+    background-color: $blanco;
+}
+
+a{
+    text-decoration: none;
+}
+.menu{
+    .logo{
+        width: 100px;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:$gris;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 30px;
+}
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    .presentacionTexto{
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        h1{
+            font-family: $font;
+            color: $naranja;
+            font-weight: 900;
+            font-size: 3.5rem;
+        }
+        p{
+            font-size: 2.3rem;
+        }
+        a{
+        margin-top: 100px;
+        background-color: $naranja;
+        font-size: 1.5rem;
+        padding: 10px;
+        width: 200px;
+        border-radius: 0.5rem;
+        text-align: center;
+        color: $blanco;
+        transition-duration: 0.5s;
+        &:hover{
+            color: $blanco;
+            background-color: $celeste;
+            font-size: 1.5rem;
+        }
+        }
+    }
+    .presentacionImagen img {
+        width: 700px;
+        padding: 30px;
+    }
+    
+}
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+}
+
+
+#servicios{
+    margin-top: 50px;
+}
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3{
+        text-align: center;
+        color: $naranja;
+    }
+    ul{
+        list-style: "-";
+    }
+    img{
+        width: 200px;
+    }
+}
+.todoservicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#proyectos{
+    margin-top: 50px;
+}
+#sobremi{
+    margin-top: 50px;
+}
+.sobremiImagen{
+    img{
+        width: 600px;
+    }
+}
+.sobremiTodo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.sobremiTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    a{ margin-top: 150px;
+        background-color: #1b7f9854;
+        font-size: 1.8rem;
+        border-radius: 0.5rem;
+        color: $gris;
+        padding: 10px;
+        transition-duration: 0.5s;
+        &:hover{
+            background-color: $celeste;
+            color: $blanco;
+            font-size: 1.8rem;
+        }
+    }
+    p{
+        font-size: 1.5rem;
+        padding: 30px;
+    }
+}
+#contacto{
+    margin-top: 50px;
+    h2{
+        color: $celeste;
+        text-align: left;
+    }
+}
+.formLogin{
+    padding: 10px;
+    width: 400px;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.form-control{
+    width: 400px;
+    height: 150px;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    resize: none;
+}
+.btn-primary{
+    background-color: $celeste;
+    border-color: $celeste;
+    width: 120px;
+    font-size: 1.5rem;
+    transition-duration: 0.5s;
+}
+.btn-primary:hover{
+    background-color: $naranja;
+    border-color: $naranja;
+    width: 120px;
+    font-size: 1.5rem;
+}
+.todoContacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contactoTexto{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+.linksContacto{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 150px;
+}
+.bi{
+    color: $naranja;
+    font-size: 3rem;
+    background-color: #ff7f303d;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0.5rem;
+}
+footer{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    img{
+        width: 600px;
+    }
+}
